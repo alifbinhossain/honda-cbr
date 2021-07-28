@@ -1,0 +1,79 @@
+/* -------------------------- IMPORTING GOOGLE FONT ------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* ---------------------------- BASE & UTILITIES ---------------------------- */
+body {
+  font-family: "Poppins", sans-serif;
+}
+.hr-small {
+  width: 5rem;
+  border: none;
+  border-bottom: 2px solid #e76f51;
+}
+main {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(3px);
+}
+/* ------------------------------ CUSTOM COLORS ----------------------------- */
+.color-orange {
+  color: #e76f51;
+}
+.grayscale {
+  filter: grayscale(100%);
+}
+.bg-grey {
+  background-color: #f1f1f1;
+}
+.text-grey-light {
+  color: #e0e0e0;
+}
+.text-grey-dark {
+  color: #6c6c6c;
+}
+.text-color-blue {
+  color: #23a6f0;
+}
+.text-color-blue-deep {
+  color: #252b42;
+}
+.bg-modal {
+  background-image: linear-gradient(
+    to left bottom,
+    rgba(38, 70, 83, 0.5),
+    rgba(38, 70, 83, 0.3)
+  );
+}
+/* --------------------------------- HEADER --------------------------------- */
+.header {
+  background-image: linear-gradient(
+      to left bottom,
+      rgba(38, 70, 83, 1),
+      rgba(38, 70, 83, 0.9)
+    ),
+    url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.header-item {
+  flex: 1;
+}
+
+/* -------------------------- SECTION CLIENT REVIEW ------------------------- */
+.card-img-top-review {
+  height: 12rem;
+}
+.card-img-top-review img {
+  width: 9.3rem;
+  height: 9.3rem;
+  object-fit: cover;
+}
