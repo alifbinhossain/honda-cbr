@@ -4,6 +4,7 @@
 /* ---------------------------- BASE & UTILITIES ---------------------------- */
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden !important;
 }
 .hr-small {
   width: 5rem;
@@ -49,6 +50,9 @@ main {
 .text-color-blue-deep {
   color: #252b42;
 }
+.text-small {
+  font-size: 0.8rem;
+}
 .bg-modal {
   background-image: linear-gradient(
     to left bottom,
@@ -65,13 +69,19 @@ main {
   display: inline-block;
   background-color: #e76f51;
   font-weight: 500;
-  padding: 0.8rem 2.5rem;
   width: max-content;
   color: #fff;
   border: none;
   border-radius: 3px;
   border: 3px solid transparent;
   transition: all 0.2s;
+  cursor: pointer;
+}
+.btn-primary-cbr-lg {
+  padding: 0.8rem 2.5rem;
+}
+.btn-primary-cbr-sm {
+  padding: 0.6rem 1.5rem;
 }
 .btn-primary-cbr:hover {
   background-color: #fff;
@@ -115,6 +125,7 @@ main {
   background-size: cover;
   background-position-y: 50rem;
 }
+
 .carousel-item-details {
   flex: max-content;
 }
@@ -126,12 +137,6 @@ main {
   border: 0.5rem solid #e76f51;
 }
 
-@media only screen and (max-width: 556px) {
-  .carousel-item-details img {
-    width: 18rem;
-    height: 12rem;
-  }
-}
 /* ------------------------------ GET IN TOUCH ------------------------------ */
 .bike-logo-box {
   border: 1px solid #e76f51;
@@ -142,4 +147,50 @@ main {
   width: 8rem;
   height: 3rem;
   object-fit: contain;
+}
+
+/* --------------------------------- FOOTER --------------------------------- */
+.footer-item {
+}
+.footer-list {
+  list-style: none;
+}
+.footer-list-item {
+}
+.footer-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  padding: 0.4rem 1rem;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+.footer-link:hover {
+  color: #fff;
+  background-color: #e76f51;
+  transform: skew(-25deg);
+}
+.app-box {
+  border: 1px solid #a6a6a6;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.app-box:hover {
+  background-color: #e76f51 !important;
+  color: #fff !important;
+  border: 1px solid transparent;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                              SHORT MEDIA QUERY                             */
+/* -------------------------------------------------------------------------- */
+@media only screen and (max-width: 556px) {
+  .carousel-item-details img {
+    width: 18rem;
+    height: 12rem;
+  }
+  .carousel-item-outlet {
+    background-position: center;
+  }
 }
