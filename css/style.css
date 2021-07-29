@@ -150,13 +150,11 @@ main {
 }
 
 /* --------------------------------- FOOTER --------------------------------- */
-.footer-item {
-}
+
 .footer-list {
   list-style: none;
 }
-.footer-list-item {
-}
+
 .footer-link {
   text-decoration: none;
   color: #fff;
@@ -192,5 +190,8 @@ main {
   }
   .carousel-item-outlet {
     background-position: center;
+  }
+  .footer-list-item:not(:last-child) {
+    margin-bottom: 0.5rem;
   }
 }
