@@ -21,7 +21,17 @@ main {
   background-size: cover;
   background-position: center;
 }
-.card {
+.header,
+.section-feature,
+.section-news,
+.section-review,
+.section-faq,
+.section-outlets,
+.section-get-in-touch,
+.footer {
+  overflow-x: hidden !important;
+}
+card {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(3px);
 }
