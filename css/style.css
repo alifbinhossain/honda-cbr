@@ -125,3 +125,21 @@ main {
   border-radius: 2rem;
   border: 0.5rem solid #e76f51;
 }
+
+@media only screen and (max-width: 556px) {
+  .carousel-item-details img {
+    width: 18rem;
+    height: 12rem;
+  }
+}
+/* ------------------------------ GET IN TOUCH ------------------------------ */
+.bike-logo-box {
+  border: 1px solid #e76f51;
+  border-radius: 3px;
+  background-color: #f1f1f1;
+}
+.bike-logo-box img {
+  width: 8rem;
+  height: 3rem;
+  object-fit: contain;
+}
